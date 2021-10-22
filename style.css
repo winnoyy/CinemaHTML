@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #185434;
+    height: 250px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.title img{
+    height: 150px;
+}
+.header-button{
+    text-decoration: none;
+    color: #d3a04d;
+}
+.button-1 a{
+    font-size: 50px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #d3a04d;
+    margin-left: 80px;
+}
+.button-1{
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+}
+main{
+    background-color: #ffe4c4;
+    height: 100ph;
+}
+body{
+    padding: 0;
+    margin: 0;
+  }
+.container{
+    background-color:  #ffe4c4;
+}
+  .row1{
+    width: 100%;
+    float: left;
+    padding-left : 20px;
+    padding-right: 20px;
+  }
+  
+  .row1 .left{
+    width : 50%;
+    float: left;
+  }
+  
+  .row1 .left .wrap{
+    padding : 50px;
+  }
+  
+  .row1 .right{
+    width : 50%;
+    float: left;  
+  }
+  
+  .row1 .right .wrap{
+    padding : 50px;
+    padding-left: 25px;
+  }
+  
+  .row1 .right .textDesc{
+    color : green;
+    font-weight: 700;
+    padding-bottom: 25px;
+  }
+  
+  .row1 .right .hr{
+    width : 100%;
+    border: 1px solid green;
+    justify-content: center;
+  }
+  
+  .row1 .right .partner{
+    font-size: large;
+    font-weight: bold;
+    color:  #e4a85c;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .row1 .right .listPart{
+    width : 50%;  
+    float: left  
+  }
+  
+  .row1 .right .listPart img{
+    width: 200px;
+    height : 50px;
+    justify-content: center;
+  }
+  
+  .row1 .left .image2{  
+    width : 100%;
+    height: 500px;
+    background-image: url("./assets//cinema.jpg");
+    background-repeat: no-repeat;    
+    background-position-x: center;
+  }
+  
+  .row2{
+    width : 100%;
+    float: left;
+    padding-left : 20px;
+    padding-right: 20px;
+  }
+  
+  .row2 .nowShowing{
+    width: 100%;
+    background-color:  #185434;
+    text-align: center;
+  }
+  
+  .row2 .nowShowing span{
+    font-weight: bold;
+  }
+  
+  .row2 .content .wrapper{  
+    width: 100%;    
+  }
+  
+  .row2 .content .wrapper .image{
+    width: 20%;
+    float: left;
+  }
+  
+  .row2 .content .wrapper .image .wrap{
+    padding: 20px;
+  }
+  
+  .row2 .content .wrapper .image .wrap img{
+    width: 100%;
+    height: auto;
+    max-height: 270px;
+  }
+.footer{
+    width: 100%;
+    background-color: #ffe4c4; ;  
+  }
+  
+  
+  .footer .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    padding-bottom: 20px;
+  }
+  
+  .footer .wrapper .leftFooter{
+    flex-basis: 70%;
+  }
+  
+  .footer .wrapper .leftFooter span{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+  }
+  
+  .footer .wrapper .rightFooter{
+    flex-basis: 30%;
+    float : right;
+    text-align: right;
+  }
+  
+  .footer .wrapper .rightFooter img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer .wrapper .leftFooter span{
+      color:  #d3a04d;;
+  }
+
+  .footer .wrapper{
+    background-color: #185434;
+  }
+  .box{
+    width: 400px;
+    height: auto;
+    padding: 40px;
+    margin: 30px auto;
+
+  }
+  
+  .wrapInput{
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  
+  .wrapInput .warpLabel{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 5px;
+  }
+  
+  .wrapInput input{
+    width: 100%;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 7px;
+  }
+  
+  .wrapInput textarea{
+    width: 100%;
+    height: 150px;
+  }
+  
+  .wrapInput select{
+    width: 103%;
+    border: 1px solid dimgray;
+    background-color: white;
+    padding: 7px;
+  }
+  
+  .wrapButton button{
+    padding: 10px;
+    border: none;
+    background-color: #185434;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .wrapInputs .wrapLabel{
+    margin-bottom: 10px;
+    align-items: center;
+  }
